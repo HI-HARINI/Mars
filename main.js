@@ -17,10 +17,10 @@ rover_image_tag.onload=uploadrover();
 rover_image_tag=rover_img;
 }
 function uploadBackground(){
-    ctx.drawImage(background_image_tag,0,0,canvas.width,canvas.height)
+    ctx.drawImage(background_image_tag,0,0, 800 ,600)
 }
 function uploadrover(){
-    ctx.drawImage(rover_image_tag,rover_x,rover_y,rover.width,rover.height)
+    ctx.drawImage(rover_image_tag,rover_x,rover_y,rover_width,rover_height)
 }
 window.addEventListener("keydown",my_keydown);
 function my_keydown(e){

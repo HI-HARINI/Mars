@@ -1,7 +1,7 @@
 canvas = document.getElementById('myCanvas');
 ctx = canvas.getContext("2d");
 
-nasa_mars_images_array = ["nasa_image_1.jpg","nasa_image_2.jpeg", "nasa_image_3.jpg","nasa_image_4.jpg"];
+nasa_mars_images_array = ["download.jpg","PIA17944-MarsCuriosityRover-AfterCrossingDingoGapSanddune-20140209.jpg","mars_surface.jpg","mars_b9ds.jpg"];
 
 random_number = Math.floor(Math.random() * 4);
 console.log(random_number);
